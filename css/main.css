@@ -1,0 +1,520 @@
+        /*導覽列*/
+        
+        @media screen and (max-width: 767px) {
+            nav {
+                height: auto;
+                width: 100%;
+                background-color: rgba(12, 51, 136, 0.8);
+                font-size: 1.5vh;
+                color: white;
+            }
+            nav ul {
+                width: 100%;
+                display: block;
+                height: auto;
+                list-style-type: none;
+            }
+            nav li {
+                width: 50%;
+                float: left;
+                margin: 1vh 0;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            nav {
+                position: fixed;
+                width: 100%;
+                height: 7%;
+                background-color: rgba(12, 51, 136, 0.8);
+                font-size: 1.5vh;
+                color: white;
+            }
+            nav ul {
+                padding: 0;
+                margin: 0 auto;
+                width: 100%;
+                list-style-type: none;
+            }
+            nav li {
+                display: inline;
+                float: left;
+                margin: 2vh;
+            }
+        }
+        
+        @media only screen and (min-width:992px) {
+            nav {
+                position: fixed;
+                width: 100%;
+                height: 7%;
+                background-color: rgba(12, 51, 136, 0.8);
+                font-size: 1.5vh;
+                color: white;
+            }
+            nav ul {
+                padding: 0;
+                margin: 0 auto;
+                width: 100%;
+                list-style-type: none;
+            }
+            nav li {
+                display: inline;
+                float: left;
+                margin: 2vh;
+            }
+        }
+        /*選單連結效果*/
+        
+        ul li a {
+            color: white;
+        }
+        /*第1區標題圖片區*/
+        
+        .first {
+            background-image: url(../img/top.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 80vh;
+            color: white;
+        }
+        
+        @media only screen and (max-width:767px) {
+            .first {
+                background-image: url(../img/top-small.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 80vh;
+                color: white;
+            }
+        }
+        /*第1區標題圖片區文字區*/
+        
+        .title1 {
+            padding-top: 35vh;
+            width: 100%;
+            margin: 0px auto;
+            text-align: center;
+        }
+        
+        @media only screen and (max-width:767px) {
+            .title1 {
+                padding-top: 15vh;
+                width: 100%;
+                margin: 0px auto;
+                text-align: center;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .title1 {
+                padding-top: 20vh;
+                width: 100%;
+                margin: 0px auto;
+                text-align: center;
+            }
+        }
+        /*第1區標題圖片區文字區h1*/
+        
+        .title1 h1 {
+            text-align: center;
+            font-size: 8vh;
+            text-shadow: 0.5vh 0.5vh 2vh #4e4e4e;
+        }
+        /*第1區標題圖片區文字區h2*/
+        
+        .title1 h2 {
+            text-shadow: 0.5vh 0.5vh 1vh #4e4e4e;
+        }
+        /*第1區標題圖片區文字區p*/
+        
+        .title1 p {
+            text-shadow: 0.5vh 0.5vh 1vh #4e4e4e;
+        }
+        /*第2區主題說明*/
+        
+        .second {
+            background-color: #FFF;
+            width: 100%;
+            height: auto;
+        }
+        /*第2區主題說明簡介*/
+        
+        section.second p {
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            line-height: 40px;
+        }
+        /*第3區引言人*/
+        
+        @media only screen and (max-width:767px) {
+            .third {
+                background-image: url(../img/instructor1-small.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                overflow: auto;
+                background-color: #f2f2f2;
+                background-position: bottom;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .third {
+                background-image: url(../img/speaker1.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                overflow: auto;
+                background-color: #f2f2f2;
+                background-position: bottom;
+            }
+        }
+        
+        @media only screen and (min-width:992px) {
+            .third {
+                background-image: url(../img/speaker1.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                overflow: auto;
+                background-color: #f2f2f2;
+                background-position: bottom;
+            }
+        }
+        /*第3區引言人簡介*/
+        
+        @media only screen and (max-width:767px) {
+            .introduction {
+                padding-top: 10vh;
+                padding-bottom: 90%;
+                height: auto;
+                width: 100%;
+                margin: 0px auto;
+                text-align: left;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .introduction {
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+                height: auto;
+                width: 50%;
+                margin: 0px auto;
+                text-align: left;
+                float: left
+            }
+        }
+        
+        @media only screen and (min-width:992px) {
+            .introduction {
+                padding-top: 30vh;
+                padding-bottom: 30vh;
+                height: auto;
+                float: left;
+                width: 50%;
+                margin: 0px auto;
+                text-align: left;
+            }
+        }
+        /*第4區講師*/
+        
+        @media only screen and (max-width:767px) {
+            .forth {
+                background-image: url(../img/speaker2.2-small.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                overflow: auto;
+                background-color: #FFF;
+                background-position: bottom;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .forth {
+                background-image: url(../img/speaker2.2.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                overflow: auto;
+                background-color: #FFF;
+                background-position: bottom;
+            }
+        }
+        
+        @media only screen and (min-width:991px) {
+            .forth {
+                background-image: url(../img/speaker2.2.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                overflow: auto;
+                background-color: #FFF;
+                background-position: bottom;
+            }
+        }
+        /*第4區講師簡介*/
+        
+        @media only screen and (max-width:767px) {
+            .introduction2 {
+                padding-top: 10vh;
+                padding-bottom: 97%;
+                height: auto;
+                width: 100%;
+                margin: 0px auto;
+                text-align: left;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .introduction2 {
+                padding-top: 5vh;
+                padding-bottom: 5vh;
+                height: auto;
+                width: 50%;
+                margin: 0px auto;
+                text-align: left;
+                float: right;
+            }
+        }
+        
+        @media only screen and (min-width:992px) {
+            .introduction2 {
+                width: 50%;
+                height: auto;
+                padding-top: 20vh;
+                padding-bottom: 20vh;
+                float: right;
+                text-align: left;
+            }
+        }
+        /*第5區話語*/
+        
+        .fifth {
+            background-image: url(../img/shake.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            overflow: auto;
+            background-position: bottom right;
+            background-color: #f2f2f2;
+        }
+        /*第5區話語內文*/
+        
+        .quotation {
+            width: 60%;
+            display: block;
+            padding: 20vh 0;
+            float: left;
+        }
+        /*第6區議程*/
+        
+        .sixth {
+            background-color: #FFF;
+            width: 100%;
+            overflow: auto;
+        }
+        /*第6區議程標題*/
+        
+        .sixth h1 {
+            text-align: center;
+            margin: 5vh auto 3vh auto;
+        }
+        /*第6區議程表格*/
+        
+        .schedule {
+            margin: 5vh auto;
+            font-weight: 400;
+            border: 1px solid #767676;
+            border-collapse: collapse;
+            padding: 20px;
+            width: 100%;
+        }
+        /*第6區議程第一列設定*/
+        
+        .schedule col:first-child {
+            width: 120px;
+            text-align: center;
+            justify-content: center;
+            margin: 0 px;
+            vertical-align: middle;
+        }
+        /*第6區議程表頭設定*/
+        
+        .schedule th {
+            border: 1px solid #767676;
+            border-collapse: collapse;
+            background-color: #ececec;
+        }
+        /*第6區議程表格設定*/
+        
+        .schedule tr td {
+            border: 1px solid #767676;
+            padding: 1.5vh;
+        }
+        /*第6區議程表格內部設定*/
+        
+        .schedule tr td div {
+            padding: 3vh 0 0 0;
+            color: #090909
+        }
+        /*第7區說明會細節*/
+        
+        .seventh {
+            background-color: #ececec;
+            width: 100%;
+            overflow: auto;
+        }
+        /*第7區說明會細節標題*/
+        
+        .seventh h1 {
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 10vh;
+        }
+        /*第7區說明會區塊設定*/
+        
+        @media only screen and (max-width:767px) {
+            .seminar {
+                width: 100%;
+                margin: 2vh auto 10vh auto;
+                text-align: center;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .seminar {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10vh;
+                margin-top: 2vh;
+                overflow: auto;
+            }
+        }
+        
+        @media only screen and (min-width:992px) {
+            .seminar {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10vh;
+                margin-top: 2vh;
+                overflow: auto;
+            }
+        }
+        /*第7區說明會內容設定*/
+        
+        @media only screen and (max-width:767px) {
+            .cell {
+                margin: 2vh auto 6vh auto;
+                text-align: center;
+                width: 90%;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .cell {
+                width: 22vh;
+                margin-top: 2vh;
+                margin-bottom: 2vh;
+                text-align: center;
+            }
+        }
+        
+        @media only screen and (min-width:992px) {
+            .cell {
+                width: 22vh;
+                margin-top: 2vh;
+                margin-bottom: 2vh;
+                text-align: center;
+            }
+        }
+        /*第7區說明會圓形標題*/
+        
+        .circle {
+            width: 12vh;
+            height: 12vh;
+            border-radius: 12vh;
+            color: #FFF;
+            background-color: #0c3388;
+            line-height: 12vh;
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 2vh;
+        }
+        /*第8區地圖*/
+        
+        .eighth {
+            background-color: #FFF;
+            width: 100%;
+            height: 50vh;
+        }
+        /*第10區點我報名*/
+        
+        .tenth {
+            background-color: #0c3388;
+            width: 100%;
+            height: 35vh;
+            padding-top: 15vh;
+        }
+        /*第10區點我報名按鈕*/
+        
+        .button {
+            font-size: 16px;
+            margin: 0 auto;
+            width: 60%;
+            height: 50px;
+            padding-top: 10px;
+            color: white;
+            text-align: center;
+            border: 2px solid #FFFFFF;
+            text-decoration: none;
+        }
+        
+        .button:hover {
+            font-size: 16px;
+            margin: 0 auto;
+            width: 60%;
+            height: 50px;
+            padding-top: 10px;
+            color: #0c3388;
+            background-color: #FFFFFF;
+            text-align: center;
+            border: 2px solid #FFFFFF;
+            text-decoration: none;
+        }
+        /*第11區社交軟體*/
+        
+        .eleventh {
+            background-color: #0c3388;
+            width: 100%;
+            height: 20vh;
+        }
+        /*第11區社交軟體圖片*/
+        
+        .social {
+            margin: 0 auto;
+            width: 92px;
+        }
+        
+        .social img {
+            float: left;
+        }
+        /*第12區footer*/
+        
+        .twelfth {
+            background-color: #0c3388;
+            width: 100%;
+            height: 5vh;
+            margin: 0 auto;
+        }
+        /*第12區文字*/
+        
+        .twelfth h6 {
+            color: white;
+            margin: 0 auto;
+            text-align: center
+        }
